@@ -1,0 +1,44 @@
+.navbar {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 75px;
+}
+.navbar a {
+  color: #FFF;
+  font-family: Outfit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -2.6px;
+  margin-left: 1px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: bisque;
+}
+.navbar ul {
+  display: flex;
+  gap: 50px;
+  color: #676767;
+}
+.navbar ul li:hover {
+  color: bisque;
+}
+.navbar button {
+  border-radius: 16px;
+  background: #323232;
+  border: none;
+  width: 130px;
+  height: 45px;
+  color: #FFF;
+  font-family: Outfit;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.navbar button:hover {
+  color: bisque;
+}/*# sourceMappingURL=style.module.css.map */
